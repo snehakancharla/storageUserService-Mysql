@@ -20,12 +20,11 @@ public class User {
     @Id
     private String userId;
     private String emailId;
-    @NotNull
+
     private String firstName;
-    @NotNull
     private String password;
-    @NotNull
+
     private String mobileNo;
-    @NotNull
+
     private String aadharNo;
 }
